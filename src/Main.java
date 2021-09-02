@@ -20,7 +20,7 @@ public class Main {
         out.println("Echo: " + line);
 
         boolean done;
-        if(line.trim().equals("bue")) {
+        if(line.trim().equals("bye")) {
             done = true;
             incoming.close();
         }
